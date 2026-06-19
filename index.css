@@ -1,0 +1,123 @@
+@font-face {
+    font-family: "MyFont";
+    src: url("CursedTimerUlil-Aznm.ttf") format("truetype");
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h3,
+h4,
+p {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: #1B244A;
+    width: 575px;
+    padding: 50px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.mainboard {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+
+h3 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.score-buttons {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+
+.team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#home-score,
+#guest-score {
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #080001;
+    padding: 0;
+    font-family: "MyFont", sans-serif;
+    color: #F94F6D;
+    font-size: 90px;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+.score-btn {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1B244A;
+    color: #9AABD8;
+    border: 1px solid #9AABD8;
+    border-radius: 3px;
+    font-family: "MyFont", sans-serif;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.new-match {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#new-match {
+    background-color: transparent;
+    color: white;
+    width: 220px;
+    height: 60px;
+    border: 2px solid #9AABD8;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+#new-match:hover {
+    background-color: #9AABD8;
+    color: #1B244A;
+}
+
+#new-match:active {
+    transform: scale(0.98);
+}
+.new-match {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}

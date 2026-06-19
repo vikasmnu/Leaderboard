@@ -1,0 +1,25 @@
+<div class="container">
+    <div class="mainboard">
+        <div class="team">
+            <h3>HOME</h3>
+            <p id="home-score">0</p>
+                <div class="score-buttons">
+                    <button class="score-btn" id="home-score-btn1" onclick="addOneHome()">+1</button>
+                    <button class="score-btn" id="home-score-btn2" onclick="addTwoHome()">+2</button>
+                    <button class="score-btn" id="home-score-btn3" onclick="addThreeHome()">+3</button>
+                </div>
+                </div>
+                <div class="team">
+            <h3>GUEST</h3>
+            <p id="guest-score">0</p> 
+                <div class="score-buttons">
+                    <button class="score-btn" id="guest-score-btn1" onclick="addOneGuest()">+1</button>
+                    <button class="score-btn" id="guest-score-btn2" onclick="addTwoGuest()">+2</button>
+                    <button class="score-btn" id="guest-score-btn3" onclick="addThreeGuest()">+3</button>
+                </div>
+                </div>
+        </div>
+    <div class="new-match">
+        <button id="new-match">New Match</button>
+    </div>
+</div>
