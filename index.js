@@ -1,42 +1,40 @@
 let homeScore = 0;
 let guestScore = 0;
+
 let homeScoreEl = document.getElementById("home-score");
 let guestScoreEl = document.getElementById("guest-score");
 
-
-function addOneHome () {
+window.addOneHome = function () {
     homeScore += 1;
     homeScoreEl.textContent = homeScore;
 }
 
-function addTwoHome () {
+window.addTwoHome = function () {
     homeScore += 2;
     homeScoreEl.textContent = homeScore;
 }
 
-
-function addThreeHome () {
+window.addThreeHome = function () {
     homeScore += 3;
     homeScoreEl.textContent = homeScore;
 }
 
-function addOneGuest () {
+window.addOneGuest = function () {
     guestScore += 1;
     guestScoreEl.textContent = guestScore;
 }
 
-function addTwoGuest () {
+window.addTwoGuest = function () {
     guestScore += 2;
     guestScoreEl.textContent = guestScore;
 }
 
-
-function addThreeGuest () {
+window.addThreeGuest = function () {
     guestScore += 3;
     guestScoreEl.textContent = guestScore;
 }
 
-function reset () {
+window.reset = function () {
     homeScore = 0;
     guestScore = 0;
     homeScoreEl.textContent = homeScore;
